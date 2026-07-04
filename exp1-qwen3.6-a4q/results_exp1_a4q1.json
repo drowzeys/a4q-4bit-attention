@@ -1,0 +1,108 @@
+{
+  "tag": "a4q1",
+  "short_c1": {
+    "ttft": 0.26744699478149414,
+    "completion_tokens": 512,
+    "prompt_tokens": 205,
+    "decode_tps": 11.652593156878028,
+    "wall": 44.120439529418945
+  },
+  "short_c1_sample": "Here's a thinking thinking sequence\n\n1.  **Deconstruct and Analyze the Prompt:**\n    *   *Goal:* Write a detailed, coherent description of a fictional research lab's daily operations.\n    *   *Lab Name:* The Meridian Institute.\n    *   *Location:* Windswept plateau in northern Iceland.\n    *   *Pers",
+  "short_c8": {
+    "agg_tps": 82.3272339250515,
+    "total_tokens": 4096,
+    "wall": 52.1439049243927,
+    "mean_ttft": 2.391895353794098,
+    "per_req_tps": [
+      10.3,
+      10.3,
+      10.3,
+      10.3,
+      10.3,
+      10.3,
+      10.3,
+      10.3
+    ]
+  },
+  "long_perf": {
+    "ttft": 75.38307571411133,
+    "completion_tokens": 256,
+    "prompt_tokens": 61643,
+    "decode_tps": 10.913374583546222,
+    "wall": 98.74897909164429
+  },
+  "long_perf_sample": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - The user provided a very long text that consists of a single paragraph repeated many times.\n   - The core content of the paragraph is: \"The grain harvest in the valley proceeded on schedule that season, and the millers recorded each delive",
+  "pk_alpha": {
+    "ttft": 74.5782835483551,
+    "text": "\nFound: \"The alpha passkey is 7429.\"\nFound: \"The omega passkey is 3186.\"\nThe question asks for the alpha passkey.\nAnswer is 7429.\nMatches constraint. Proceeds. \nOutput matches exactly.\u2705\n</think>\n\n7429",
+    "ok": true
+  },
+  "pk_omega": {
+    "ttft": 75.24290227890015,
+    "text": "text for \"omega passkey\".\nIt appears exactly once: \"The omega passkey is 3186.\"\nThe request is straightforward.\nOutput matches requirement.\nDone. \nProceeds. \n[Output Generation] -> 3186\n</think>\n\n3186",
+    "ok": true
+  },
+  "math_score": 10,
+  "math_details": [
+    {
+      "q": "A train travels 60 miles in 1.5 hours. W",
+      "gold": "40",
+      "got": "40",
+      "ok": true
+    },
+    {
+      "q": "If 3x + 7 = 25, what is x?",
+      "gold": "6",
+      "got": "6",
+      "ok": true
+    },
+    {
+      "q": "Sarah has 3 times as many apples as Tom.",
+      "gold": "36",
+      "got": "36",
+      "ok": true
+    },
+    {
+      "q": "What is 17 multiplied by 23?",
+      "gold": "391",
+      "got": "391",
+      "ok": true
+    },
+    {
+      "q": "A shirt costs $80 after a 20% discount. ",
+      "gold": "100",
+      "got": "100",
+      "ok": true
+    },
+    {
+      "q": "What is the sum of the first 20 positive",
+      "gold": "210",
+      "got": "210",
+      "ok": true
+    },
+    {
+      "q": "A rectangle has a perimeter of 36 and a ",
+      "gold": "80",
+      "got": "80",
+      "ok": true
+    },
+    {
+      "q": "A car worth $20,000 depreciates by 10% p",
+      "gold": "16200",
+      "got": "16200",
+      "ok": true
+    },
+    {
+      "q": "Compute 2^10 - 3^5.",
+      "gold": "781",
+      "got": "781",
+      "ok": true
+    },
+    {
+      "q": "Alice is twice as old as Bob. In 6 years",
+      "gold": "12",
+      "got": "12",
+      "ok": true
+    }
+  ]
+}

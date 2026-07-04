@@ -1,0 +1,29 @@
+[
+ {
+  "target": 49152,
+  "prompt_tokens": 49080,
+  "completion_tokens": 56,
+  "ttft_s": 9.28,
+  "decode_tps": 59.41,
+  "passkey_ok": true,
+  "reply_head": " 3187  The quarterly logistics review highlighted that warehouse throughput in the northern distribution corridor improv"
+ },
+ {
+  "target": 98304,
+  "prompt_tokens": 98178,
+  "completion_tokens": 192,
+  "ttft_s": 24.41,
+  "decode_tps": 56.51,
+  "passkey_ok": true,
+  "reply_head": " 3187  The quarterly logistics review highlighted that warehouse throughput in the northern distribution corridor improv"
+ },
+ {
+  "target": 261500,
+  "prompt_tokens": 261299,
+  "completion_tokens": 192,
+  "ttft_s": 123.69,
+  "decode_tps": 54.65,
+  "passkey_ok": true,
+  "reply_head": " 3187  The quarterly logistics review noted that warehouse throughput in the northern distribution corridor improved aft"
+ }
+]

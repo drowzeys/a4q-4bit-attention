@@ -1,0 +1,33 @@
+{
+  "mode": "ctx",
+  "tag": "a4q0",
+  "points": [
+    {
+      "target_k": 48,
+      "prompt_tokens": 47905,
+      "ttft": 60.34,
+      "decode_tps": 10.69,
+      "completion_tokens": 162,
+      "passkey_ok": true,
+      "tail": "st the number.\" So I will output exactly \"7429\".\nEverything matches. Proceed. \nOutput Generation. \n[Done]\n</think>\n\n7429"
+    },
+    {
+      "target_k": 96,
+      "prompt_tokens": 95865,
+      "ttft": 153.13,
+      "decode_tps": 10.11,
+      "completion_tokens": 192,
+      "passkey_ok": true,
+      "tail": "s requested.\nOutput: 7429.\nDone. \nNo extra text. Just the number.\nCheck constraint: \"Reply with just the number.\" -> \"74"
+    },
+    {
+      "target_k": 256,
+      "prompt_tokens": 255761,
+      "ttft": 678.07,
+      "decode_tps": 8.81,
+      "completion_tokens": 180,
+      "passkey_ok": true,
+      "tail": "sure accuracy.\nFound: \"The passkey is 7429.\"\nOutput matches requirement.\nDone. \nProceeding. \nOutput: 7429\n</think>\n\n7429"
+    }
+  ]
+}

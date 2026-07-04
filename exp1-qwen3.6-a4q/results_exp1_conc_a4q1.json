@@ -1,0 +1,76 @@
+{
+  "mode": "conc",
+  "tag": "a4q1",
+  "points": [
+    {
+      "C": 1,
+      "agg_tps": 11.32,
+      "mean_req_decode_tps": 11.29,
+      "mean_ttft": 1.729,
+      "total_tokens": 384,
+      "wall": 35.64,
+      "n_errors": 0,
+      "errors": []
+    },
+    {
+      "C": 2,
+      "agg_tps": 21.73,
+      "mean_req_decode_tps": 10.84,
+      "mean_ttft": 0.891,
+      "total_tokens": 768,
+      "wall": 36.23,
+      "n_errors": 0,
+      "errors": []
+    },
+    {
+      "C": 4,
+      "agg_tps": 42.17,
+      "mean_req_decode_tps": 10.56,
+      "mean_ttft": 1.239,
+      "total_tokens": 1536,
+      "wall": 37.55,
+      "n_errors": 0,
+      "errors": []
+    },
+    {
+      "C": 8,
+      "agg_tps": 79.98,
+      "mean_req_decode_tps": 9.97,
+      "mean_ttft": 2.018,
+      "total_tokens": 3072,
+      "wall": 40.43,
+      "n_errors": 0,
+      "errors": []
+    },
+    {
+      "C": 12,
+      "agg_tps": 110.99,
+      "mean_req_decode_tps": 9.38,
+      "mean_ttft": 2.627,
+      "total_tokens": 4608,
+      "wall": 43.48,
+      "n_errors": 0,
+      "errors": []
+    },
+    {
+      "C": 16,
+      "agg_tps": 137.0,
+      "mean_req_decode_tps": 8.81,
+      "mean_ttft": 2.903,
+      "total_tokens": 6144,
+      "wall": 46.48,
+      "n_errors": 0,
+      "errors": []
+    },
+    {
+      "C": 20,
+      "agg_tps": 153.31,
+      "mean_req_decode_tps": 7.97,
+      "mean_ttft": 3.608,
+      "total_tokens": 7680,
+      "wall": 51.78,
+      "n_errors": 0,
+      "errors": []
+    }
+  ]
+}

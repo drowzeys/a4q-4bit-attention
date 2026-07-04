@@ -1,0 +1,5 @@
+{
+ "List the first 10 prime numbers.": "<think>The first 10 prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.</think>The first 10 prime numbers are:\n\n1. **2**\n2. **3**\n3. **5**\n4. **7**\n5. **11**\n6. **13**\n7. **17**\n8. **19**\n9. **23**\n10. **29**",
+ "What is the capital of France and why is it historically significant? One sentence.": "<think>The user wants a single sentence about the capital of France and its historical significance.</think>The capital of France is Paris, which has been historically significant as a center of art, culture, philosophy, and political power for centuries, serving as the seat of the French monarchy, the epicenter of the French Revolution, and a global hub for diplomacy, fashion, and intellectual thought.",
+ "Count from 1 to 20.": "<think>The user wants me to count from 1 to 20.</think>Here's the count from 1 to 20:\n\n1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20"
+}

@@ -1,0 +1,74 @@
+[
+ {
+  "target": 6144,
+  "prompt_tokens": 6058,
+  "completion_tokens": 111,
+  "ttft_s": 2.44,
+  "decode_tps": 57.21,
+  "passkey_ok": true,
+  "reply_head": " Passkeys mentioned: 3187  Summary: The quarterly logistics review highlights that the northern distribution corridor\u2019s "
+ },
+ {
+  "target": 12288,
+  "prompt_tokens": 12232,
+  "completion_tokens": 125,
+  "ttft_s": 2.05,
+  "decode_tps": 56.63,
+  "passkey_ok": true,
+  "reply_head": " 3187  The quarterly logistics review highlighted that warehouse throughput in the northern distribution corridor increa"
+ },
+ {
+  "target": 24576,
+  "prompt_tokens": 24482,
+  "completion_tokens": 119,
+  "ttft_s": 3.65,
+  "decode_tps": 56.87,
+  "passkey_ok": true,
+  "reply_head": " 3187    The quarterly logistics review highlighted that warehouse throughput in the northern distribution corridor impr"
+ },
+ {
+  "target": 49152,
+  "prompt_tokens": 49080,
+  "completion_tokens": 75,
+  "ttft_s": 7.48,
+  "decode_tps": 58.73,
+  "passkey_ok": true,
+  "reply_head": " 3187  The quarterly logistics review highlighted that warehouse throughput in the northern distribution corridor improv"
+ },
+ {
+  "target": 98304,
+  "prompt_tokens": 98178,
+  "completion_tokens": 98,
+  "ttft_s": 17.43,
+  "decode_tps": 58.5,
+  "passkey_ok": true,
+  "reply_head": " 3187  The report details a quarterly logistics review focusing on warehouse performance in the northern distribution co"
+ },
+ {
+  "target": 131072,
+  "prompt_tokens": 130910,
+  "completion_tokens": 83,
+  "ttft_s": 25.8,
+  "decode_tps": 56.98,
+  "passkey_ok": true,
+  "reply_head": " 3187  The quarterly logistics review highlighted that warehouse throughput in the northern distribution corridor improv"
+ },
+ {
+  "target": 196608,
+  "prompt_tokens": 196423,
+  "completion_tokens": 6,
+  "ttft_s": 47.22,
+  "decode_tps": 14699.66,
+  "passkey_ok": true,
+  "reply_head": " 3187"
+ },
+ {
+  "target": 261500,
+  "prompt_tokens": 261299,
+  "completion_tokens": 74,
+  "ttft_s": 75.08,
+  "decode_tps": 59.19,
+  "passkey_ok": true,
+  "reply_head": " 3187  The report is a quarterly logistics review that focuses on warehouse throughput in the northern distribution corr"
+ }
+]

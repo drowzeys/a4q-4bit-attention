@@ -1,0 +1,13 @@
+{
+ "model": "nemotron-omni-a4q (Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4)",
+ "node": "r2 / 10.100.10.2 (GB10)",
+ "date": "2026-07-04",
+ "fixed": {"gpu_memory_utilization": 0.70, "kv_cache_dtype": "nvfp4", "backend": "FLASHINFER", "tp": 1},
+ "model_max_position_embeddings": 262144,
+ "context_cap_used": 261500,
+ "kv_pool_tokens": {"a4q1_131072ctx": 30620435, "a4q0_131072ctx": 29434066,
+                    "a4q1_262144ctx": 29887958, "a4q0_262144ctx": 29972978},
+ "concurrency_sweep_prompt": "~200-tok, max_tokens 384, temp 0.7, A4Q=1",
+ "context_sweep_prompt": "passkey 3187 at 75% depth, max_tokens 192, temp 0",
+ "notes": "See conc_sweep_a4q1.json and ctx_sweep_a4q1.json / ctx_sweep_a4q0.json for raw rows."
+}

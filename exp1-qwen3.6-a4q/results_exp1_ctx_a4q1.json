@@ -1,0 +1,78 @@
+{
+  "mode": "ctx",
+  "tag": "a4q1",
+  "points": [
+    {
+      "target_k": 6,
+      "prompt_tokens": 5929,
+      "ttft": 5.7,
+      "decode_tps": 11.34,
+      "completion_tokens": 129,
+      "passkey_ok": true,
+      "tail": "edded in the middle of the repeated paragraph.\nI will output just \"7429\".\nDone. \nOutput matches request.\u2705\n</think>\n\n7429"
+    },
+    {
+      "target_k": 12,
+      "prompt_tokens": 11913,
+      "ttft": 11.72,
+      "decode_tps": 11.24,
+      "completion_tokens": 146,
+      "passkey_ok": true,
+      "tail": " is clearly stated in the middle of the repeated paragraph.\nOutput matches request.\nDone. \nResponse: 7429\n</think>\n\n7429"
+    },
+    {
+      "target_k": 24,
+      "prompt_tokens": 23881,
+      "ttft": 25.3,
+      "decode_tps": 10.92,
+      "completion_tokens": 148,
+      "passkey_ok": true,
+      "tail": "rly stated in the middle of the repetitive text.\nOutput matches request.\nDone. \nProceeding. \nOutput: 7429\n</think>\n\n7429"
+    },
+    {
+      "target_k": 48,
+      "prompt_tokens": 47905,
+      "ttft": 56.56,
+      "decode_tps": 10.67,
+      "completion_tokens": 148,
+      "passkey_ok": true,
+      "tail": "h just the number.\nSo the answer should be 7429.\nDouble-checking: \"The passkey is 7429.\" -> 7429.\nReady.\u2705\n</think>\n\n7429"
+    },
+    {
+      "target_k": 96,
+      "prompt_tokens": 95865,
+      "ttft": 130.65,
+      "decode_tps": 10.22,
+      "completion_tokens": 192,
+      "passkey_ok": true,
+      "tail": "I will output just 7429.\nDouble checking the exact wording: \"The passkey is 7429.\"\nYes.\nOutput matches request.\nProceed."
+    },
+    {
+      "target_k": 128,
+      "prompt_tokens": 127809,
+      "ttft": 192.66,
+      "decode_tps": 9.98,
+      "completion_tokens": 158,
+      "passkey_ok": true,
+      "tail": "cated roughly in the middle of the prompt.\nI will output just \"7429\".\nDone. \nOutput matches requirement.\u2705\n</think>\n\n7429"
+    },
+    {
+      "target_k": 192,
+      "prompt_tokens": 191785,
+      "ttft": 341.09,
+      "decode_tps": 9.39,
+      "completion_tokens": 192,
+      "passkey_ok": true,
+      "tail": "stated.\nI will output \"7429\".\nDone. \nNo extra text. Just the number.\nCheck format: \"Reply with just the number.\" -> 7429"
+    },
+    {
+      "target_k": 256,
+      "prompt_tokens": 255761,
+      "ttft": 523.11,
+      "decode_tps": 8.81,
+      "completion_tokens": 192,
+      "passkey_ok": true,
+      "tail": "check the prompt: \"Reply with just the number.\"\nYes.\nProceed. \nOutput matches requirement. \nFinal answer: 7429. \n(Self-C"
+    }
+  ]
+}
