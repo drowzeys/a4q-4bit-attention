@@ -4,9 +4,7 @@ Copyright (c) 2026 drowzeys
 
 Measurement data, benchmark harnesses, and documentation in this repository are
 released under the MIT License. The A4Q kernel and FlashInfer fork this work
-measures are the property of Jetha Chan (@jetha, MIT-licensed). Third-party model
-loader patches under exp3-mimo-v2.5-dflash/patches/ are derived from vLLM
-(Apache-2.0) — see patches/NOTICE.md.
+measures are the property of Jetha Chan (@jetha, MIT-licensed).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

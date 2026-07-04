@@ -2,7 +2,7 @@
 
 Benchmarks, evaluations, concurrency + context sweeps, and reproduction artifacts for
 **A4Q** — native NVFP4 (4-bit) block-scaled QK attention — measured on a **4× NVIDIA DGX
-Spark (GB10, sm_121a)** cluster, plus a companion spec-decode study on MiMo-V2.5.
+Spark (GB10, sm_121a)** cluster.
 
 > **A4Q is the work of [Jetha Chan (@jetha)](https://x.com/jetha)** — see
 > [jethac/flashinfer](https://github.com/jethac/flashinfer) (the kernel) and
@@ -40,20 +40,17 @@ every depth through the full **256K** context in both A4Q-on and A4Q-off configs
 |---|---|---|---|---|
 | [`exp1-qwen3.6-a4q/`](exp1-qwen3.6-a4q/) | Qwen3.6-27B-NVFP4 | GDN + gated attn (hybrid) | ✅ | Win — TTFT −6…−23%, decode +4% |
 | [`exp2-nemotron-omni-a4q/`](exp2-nemotron-omni-a4q/) | Nemotron-3-Nano-Omni-30B-A3B-NVFP4 | Mamba-2 + attn + MoE (hybrid) | ✅ | Win — TTFT −19…−39%, KV +4% |
-| [`exp3-mimo-v2.5-dflash/`](exp3-mimo-v2.5-dflash/) | MiMo-V2.5-NVFP4 (310B MoE) | MLA + DSA | ❌ (MLA) | Spec-decode study; baseline wins, DFlash arch-blocked |
 
 Each experiment directory contains its own README with **benchmark, evaluation,
 concurrency sweep, and context sweep** tables, plus the raw JSON results, bench harness,
 and serve scripts.
 
-## Why MiMo is here but A4Q doesn't apply to it
+## Scope: where A4Q applies
 
-A4Q targets **paged GQA/hybrid attention** where the KV cache holds per-head keys/values.
-MiMo-V2.5 (like DeepSeek-V4 and GLM-5.2) uses **MLA** — the cache holds a compressed latent
-far below A4Q's payoff width, and decode runs absorbed-MLA kernels, not paged QKᵀ. Exp3 is
-therefore a **speculative-decoding** study (DFlash / MTP) on the same cluster, included for
-completeness and because getting MiMo's MIXED_PRECISION checkpoint to serve coherently
-required a non-trivial 6-fix loader chain that is documented and reproduced here.
+A4Q targets **paged GQA / hybrid attention** where the KV cache holds per-head keys/values.
+Models with **MLA** attention (DeepSeek-V4, GLM-5.2, MiMo-V2.5) keep a compressed latent in
+cache — far below A4Q's payoff width, with decode running absorbed-MLA kernels rather than
+paged QKᵀ — so A4Q does not apply to them.
 
 ## Test platform
 
@@ -79,7 +76,4 @@ required a non-trivial 6-fix loader chain that is documented and reproduced here
 ## Credits & license
 
 - **A4Q kernel, FlashInfer fork, and Blackwell ISA probe**: Jetha Chan (@jetha) — MIT.
-- MiMo loader patches under `exp3-.../patches/` are **derived from vLLM (Apache-2.0)** and
-  the `aeon-vllm-ultimate` image; included for reproducibility with attribution. See
-  [`exp3-mimo-v2.5-dflash/patches/NOTICE.md`](exp3-mimo-v2.5-dflash/patches/NOTICE.md).
 - Measurement data, harnesses, and documentation in this repo: MIT (see [`LICENSE`](LICENSE)).
